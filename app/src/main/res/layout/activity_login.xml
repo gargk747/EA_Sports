@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="@drawable/background3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/tv_emailid_login"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="email id *"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:clickable="true"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/inputtext"
+            />
+
+        <EditText
+            android:id="@+id/tv_password_login"
+            android:layout_below="@id/tv_emailid_login"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="password *"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:clickable="true"
+            android:inputType="textPassword"
+            android:background="@drawable/inputtext"
+            />
+
+        <Button
+            android:id="@+id/btn_login1"
+            android:layout_below="@id/tv_password_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_forgotpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login1"
+            android:text="Forgot Password"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

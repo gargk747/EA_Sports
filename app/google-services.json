@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "190798605111",
+    "firebase_url": "https://easports-a013f.firebaseio.com",
+    "project_id": "easports-a013f",
+    "storage_bucket": "easports-a013f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190798605111:android:d0c8175a61e7a3ae2348b2",
+        "android_client_info": {
+          "package_name": "com.example.ea_sports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190798605111-sno2j1sonqai6akgsjl4s0rmt44cm38b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ea_sports",
+            "certificate_hash": "8a60a6de3a9426bb6939e040b8ce55dad3ff8e48"
+          }
+        },
+        {
+          "client_id": "190798605111-d3rps9no5gt896k5olkstdmtmpldt2lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv0Xgoc_hUOad38OQieTSi6K0Gh4U1TYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190798605111-d3rps9no5gt896k5olkstdmtmpldt2lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical"
+    android:background="@drawable/background3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/tv_emailid_register"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="email id *"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:clickable="true"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/inputtext"
+            />
+        <EditText
+            android:id="@+id/tv_password_register"
+            android:layout_below="@id/tv_emailid_register"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:hint="password *"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:clickable="true"
+            android:inputType="textPassword"
+            android:background="@drawable/inputtext"
+            />
+        <EditText
+            android:id="@+id/tv_passwordConfrim_register"
+            android:layout_below="@id/tv_password_register"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:hint="confirm password *"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:clickable="true"
+            android:inputType="textPassword"
+            android:background="@drawable/inputtext"
+            />
+
+        <Button
+            android:id="@+id/btn_register1"
+            android:layout_below="@id/tv_passwordConfrim_register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:text="REGISTER"
+            android:textSize="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

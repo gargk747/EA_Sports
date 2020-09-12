@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstactivity"
+    android:orientation="vertical"
+    android:background="@drawable/background3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="New User...Register Below"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_below="@id/tv_register"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="25dp"
+            android:elevation="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_below="@id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:text="User Previously Logged in"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_below="@id/tv_login"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonshape"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
